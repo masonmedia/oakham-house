@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  ssr: false, // disable server-side rendering
+  target: 'static', // (optional in Nuxt 3, safe to include)
   app: {
+    baseURL: '/', // or '/your-repo-name/' if deploying to a subpath
     head: {
       link: [
         {
