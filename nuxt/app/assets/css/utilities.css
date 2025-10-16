@@ -1,0 +1,13 @@
+.min-vh-50 {
+    min-height: 50dvh;
+    /* max-height: 400px; */
+}
+
+.min-vh-75 {
+    min-height: 75dvh;
+    /* max-height: 600px; */
+}
+
+.fw-900 {
+    font-weight: 900;
+}

@@ -1,0 +1,23 @@
+@import 'utilities.css';
+
+body {
+    font-family: "Inter Tight", sans-serif;
+    max-width: 1800px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    background: rgb(248,249,250);
+}
+
+nav {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

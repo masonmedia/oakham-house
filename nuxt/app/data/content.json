@@ -1,0 +1,41 @@
+{
+    "events": [
+        {
+            "title": "Corporate Events",
+            "description": "Oakham House blends historic charm with modern amenities, offering versatile spaces for conferences, workshops, or product launches. Elegant interiors and professional layouts create a polished, engaging environment for networking and collaboration."
+        },
+        {
+            "title": "Weddings & Celebrations",
+            "description": "Romantic and intimate, Oakham House provides timeless architecture and adaptable spaces for ceremonies, receptions, and photos. Couples and guests enjoy a warm, sophisticated atmosphere, ensuring memorable, elegant celebrations."
+        },
+        {
+            "title": "Private Parties",
+            "description": "Ideal for birthdays, anniversaries, or cocktail evenings, Oakham House combines inviting lounges, customizable layouts, and ambient lighting to create a lively yet refined setting for social gatherings and memorable experiences."
+        },
+        {
+            "title": "Cultural Events",
+            "description": "Flexible, inspiring spaces at Oakham House suit art exhibitions, book launches, and workshops. Architectural details and welcoming atmospheres encourage interaction, appreciation, and participation in Toronto’s vibrant cultural and creative scene."
+        }
+    ],
+    "location": [
+
+        {
+            "title": "Map + Directions"
+        },
+        {
+            "title": "Accessibility",
+            "text": "Oakham House and the TMU Student Centre are fully accessible, with elevators, automatic doors, and accessible washrooms. Contact our Conference Coordinator to discuss any specific accommodations."
+        },
+        {
+            "title": "Parking & Transit",
+            "text": "No on-site parking, but several paid lots are nearby:",
+            "list": [
+                "TMU Bookstore Garage (Victoria St. between Dundas & Gould)",
+                "Pitman Hall Residence (Mutual St. between Gerrard & Gould)",
+                "City Parking (Church St. between Gould & Dundas)",
+                "Rates reflect typical downtown Toronto pricing.", 
+                "Direct TTC subway access via Dundas Station."
+            ]
+        }
+    ]
+}
