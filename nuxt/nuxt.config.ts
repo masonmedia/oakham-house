@@ -5,8 +5,7 @@ export default defineNuxtConfig({
   ssr: false, // disable server-side rendering
   target: 'static', // (optional in Nuxt 3, safe to include)
   app: {
-    baseURL: '/oakham-house/', // IMPORTANT: GitHub Pages project path
-    buildAssetsDir: '_nuxt/',  // or '/your-repo-name/' if deploying to a subpath
+    baseURL: '/oakham-house/', // or '/your-repo-name/' if deploying to a subpath
     head: {
       link: [
         {
@@ -15,6 +14,9 @@ export default defineNuxtConfig({
         }
       ]
     }
+  },
+  build: {
+    publicPath: '/oakham-house/_nuxt/' // ensures assets load correctly
   },
   css: [
     'bootstrap/dist/css/bootstrap.min.css',
