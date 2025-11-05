@@ -7,11 +7,16 @@ content:
     path: nuxt/app/posts
     type: collection
     fields:
-      type: rich-text
-      # ... fields defined here ...
+      - type: rich-text
+  - name: home
+    label: Home
+    path: nuxt/app/data/home.json
+    type: file
+    fields:
+      - type: rich-text
   - name: authors
     label: Authors
     path: nuxt/app/data/authors.json
     type: file
     fields:
-      type: rich-text
+      - type: rich-text
