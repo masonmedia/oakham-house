@@ -25,7 +25,7 @@ content:
         type: rich-text
   - name: home
     label: Home
-    path: nuxt/app/data/data.json
+    path: nuxt/app/data/content.json
     type: file
     fields:
       - name: published
@@ -46,7 +46,7 @@ content:
         type: rich-text
   - name: authors
     label: Authors
-    path: nuxt/app/data/data.json
+    path: nuxt/app/data/content.json
     type: file
     fields:
       - name: published
