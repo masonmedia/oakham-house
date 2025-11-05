@@ -1,1 +1,17 @@
-big itme is the lorem and the ipsausdmf a;lkjn ;klajn ;lkjn ;lkm alsdkfn a;lsdkf a;lsdfn a;sldkfmna ;lsdkmf asd
+media:
+  input: nuxt/public/images
+  output: media
+content:
+  - name: posts
+    label: Posts
+    path: nuxt/app/posts
+    type: collection
+    fields:
+      type: rich-text
+      # ... fields defined here ...
+  - name: authors
+    label: Authors
+    path: nuxt/app/data/authors.json
+    type: file
+    fields:
+      type: rich-text
